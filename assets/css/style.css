@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    border-radius: 5px;
+    width: 100%;
+}
+nav ul{
+    width: 80%;
+}
+#gore{
+    background-image: url("../images/header.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gore{
+    height: 630px;
+}
+.kategorija{
+    position: relative;
+}
+.kategorija p{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    right: 25%;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: rgba(34, 38, 42, 0.8);
+}
+p{
+    margin: 0px;
+}
+.postovi{
+    text-align: justify;
+}
+.postovi img{
+    border-radius: 5px 5px 0px 0px;
+}
+.postovi div{
+    border-radius: 0px 0px 5px 5px;
+}
+.row{
+    margin: 0px;
+}
+.row>*{
+    padding: 0px;
+}
+footer{
+    text-align: justify;
+    padding-top: 30px;
+    color: #fff;
+}
+.copy{
+    background-color: #0a58ca;
+}
+textarea{
+    height: 250px;
+    resize: none;
+}
+table td{
+    width: 20%;
+}
+nav .navAdmin{
+    width: auto;
+}
+#content textarea{
+    height: 400px;
+}
